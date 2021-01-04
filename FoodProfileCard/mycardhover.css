@@ -1,0 +1,17 @@
+.container{
+    margin-top: 8%;
+}
+
+.myzoom{
+
+    overflow: hidden;
+}
+
+.myzoom img {
+    transition: all 1.5s ease;
+    
+}
+.myzoom:hover img{
+    transform: scale(2);
+  
+}
