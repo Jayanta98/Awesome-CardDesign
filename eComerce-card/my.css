@@ -1,0 +1,32 @@
+.container{
+    margin-top: 8%;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+    
+}
+
+.inner:hover img{
+    transform: scale(2);
+  
+}
+
+/*  overflow transition translation  */
+
+.myicon{
+    overflow: hidden;
+}
+
+.myicon .heart{
+    transition: all 1.5s ease;
+  
+}
+
+.myicon:hover .heart{
+  transform: scale(1.5);
+  color: darkblue;
+
+}
